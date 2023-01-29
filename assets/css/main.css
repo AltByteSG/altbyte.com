@@ -139,7 +139,7 @@ input, select, textarea {
 			line-height: 2;
 			text-transform: none !important;
 			font-family: 'Font Awesome 5 Free';
-			font-weight: 400;
+			font-weight: 500;
 		}
 
 		.icon > .label {
@@ -347,10 +347,10 @@ input, select, textarea {
 	}
 
 	#overlay {
-		-moz-animation: overlay 1.0s 1.5s forwards;
-		-webkit-animation: overlay 1.0s 1.0s forwards;
-		-ms-animation: overlay 1.0s 1.0s forwards;
-		animation: overlay 1.0s 1.0s forwards;
+		-moz-animation: overlay 0.5s 0.5s forwards;
+		-webkit-animation: overlay 0.5s 0.5s forwards;
+		-ms-animation: overlay 0.5s 0.5s forwards;
+		animation: overlay 0.5s 0.5s forwards;
 		background-attachment: fixed, fixed;
 		background-image: url("images/overlay-pattern.png"), url("images/overlay.svg");
 		background-position: top left, center center;
@@ -531,10 +531,10 @@ input, select, textarea {
 	}
 
 	#header {
-		-moz-animation: header 1s 2.25s forwards;
-		-webkit-animation: header 1s 2.25s forwards;
-		-ms-animation: header 1s 2.25s forwards;
-		animation: header 1s 2.25s forwards;
+		-moz-animation: header 0.5s 2.25s forwards;
+		-webkit-animation: header 0.5s 2.25s forwards;
+		-ms-animation: header 0.5s 2.25s forwards;
+		animation: header 0.5s 2.25s forwards;
 		-moz-backface-visibility: hidden;
 		-webkit-backface-visibility: hidden;
 		-ms-backface-visibility: hidden;
@@ -561,7 +561,8 @@ input, select, textarea {
 		}
 
 		#header p {
-			font-size: 1.25em;
+			font-size: 1.50em;
+			font-weight: bold;
 			margin: 0.75em 0 0.25em 0;
 			opacity: 0.75;
 		}
