@@ -1,39 +1,72 @@
 <!DOCTYPE HTML>
-<!--
-	Aerial by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
+
+<html lang="en">
 	<head>
 		<title>AltByte</title>
 		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="description" content="AltByte - Empowering Businesses in the Digital Age" />
+		<meta name="referrer" content="strict-origin-when-cross-origin" />
+		<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self' https://fonts.googleapis.com 'unsafe-inline'; font-src 'self' https://fonts.gstatic.com; img-src 'self'; script-src 'self' 'unsafe-inline'; connect-src 'self'" />
+		<meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=(), payment=()" />
+		<meta property="og:title" content="AltByte" />
+		<meta property="og:description" content="Empowering Businesses in the Digital Age" />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://altbyte.com" />
+		<meta property="og:image" content="https://altbyte.com/assets/css/images/altbyte_flat2.png" />
+		<meta name="twitter:card" content="summary" />
+		<meta name="twitter:title" content="AltByte" />
+		<meta name="twitter:description" content="Empowering Businesses in the Digital Age" />
+		<meta name="twitter:image" content="https://altbyte.com/assets/css/images/altbyte_flat2.png" />
+		<link rel="canonical" href="https://altbyte.com" />
+		<link rel="icon" href="favicon.ico" />
+		<link rel="apple-touch-icon" href="favicon.ico" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
 		<div id="wrapper">
-			<div id="bg"></div>
-			<div id="overlay"></div>
+			<div id="bg">
+				<div class="blob blob-1"></div>
+				<div class="blob blob-2"></div>
+				<div class="blob blob-3"></div>
+				<div class="blob blob-4"></div>
+				<div class="blob blob-5"></div>
+			</div>
 			<div id="main">
 				<!-- Header -->
 					<header id="header">
-						<h1><img src="./assets/css/images/altbyte_flat2.png" alt="altbyte" width=65%%></h1>
-						<p><b> - Empowering Businesses in the Digital Age 🚀 - </b></p>
+						<h1><img src="./assets/css/images/altbyte_flat2.png" alt="AltByte" style="width:65%"></h1>
+						<p class="tagline"> - Empowering Businesses in the Digital Age - </p>
+						<p class="subline">Strategy &middot; Technology &middot; Innovation</p>
 						<nav>
 							<ul>
-								<li><a href="https://www.linkedin.com/company/altbyte/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+								<li><a href="https://www.linkedin.com/company/altbyte/" target="_blank" rel="noopener noreferrer" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
 								<li><a href="mailto:contact@altbyte.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
 							</ul>
 						</nav>
 					</header>
 			</div>
 		</div>
+		<footer style="position:fixed;bottom:1em;width:100%;text-align:center;font-size:0.7em;color:white">
+			&copy; 2026 AltByte Pte Ltd. All rights reserved.
+		</footer>
+		<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "Organization",
+			"name": "AltByte Pte Ltd",
+			"url": "https://altbyte.com",
+			"logo": "https://altbyte.com/assets/css/images/altbyte_flat2.png",
+			"description": "Empowering Businesses in the Digital Age",
+			"sameAs": ["https://www.linkedin.com/company/altbyte/"]
+		}
+		</script>
 		<script>
 			window.onload = function() { document.body.classList.remove('is-preload'); }
-			window.ontouchmove = function() { return false; }
-			window.onorientationchange = function() { document.body.scrollTop = 0; }
 		</script>
 	</body>
 </html>
